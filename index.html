@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lore Olympus Webtoon Landing Page">
+    <title>Lore Olympus Webtoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#cta">Read More</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text animated-text">
+            <h1>Welcome to Lore Olympus</h1>
+            <p>Jaw Dropping Seen on Media</p>
+        </div>
+    </section>
+
+    <!-- Main Characters Section -->
+    <section id="characters" class="characters">
+        <h2>Main Characters</h2>
+        <div class="character-grid">
+            <div class="character-card">
+                <img src="https://64.media.tumblr.com/6fe2cba020c59df7bc1d9fa192afa9ec/a1fce8169b400a25-23/s1280x1920/0bc677251d22df3ea3b4c757b73dfe5f252f8ee8.jpg" alt="Character 1">
+                <div class="character-details">
+                    <h3>Persephone</h3>
+                    <p>The Queen of the Underworld.</p>
+                </div>
+            </div>
+            <div class="character-card">
+                <img src="https://m.media-amazon.com/images/I/71FoWCVpVWL._AC_UF1000,1000_QL80_.jpg" alt="Character 2">
+                <div class="character-details">
+                    <h3>Hades</h3>
+                    <p>The King of the Underworld.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="gallery" class="carousel">
+        <h2>Other Supernatural Manhwas</h2>
+        <div class="carousel-container">
+            <div class="mySlides">
+                <img src="https://c4.wallpaperflare.com/wallpaper/169/871/623/solo-leveling-manga-manhwa-webtoon-hd-wallpaper-preview.jpg" alt="Manhwa 1">
+            </div>
+            <div class="mySlides">
+                <img src="https://preview.redd.it/underrated-supernatural-romance-webtoon-v0-f5wd9kl34lyb1.jpg?width=900&format=pjpg&auto=webp&s=402f3b33345386e91b97883bbf93cac27ed257cc" alt="Manhwa 2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="cta" class="cta">
+        <button class="cta-button" onclick="openModal()">Read More About Lore Olympus</button>
+    </section>
+    
+    <!-- Modal Structure -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>More About Lore Olympus</h2>
+        <p>Lore Olympus is a contemporary retelling of the classic Greek mythology involving gods like Persephone and Hades...</p>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
